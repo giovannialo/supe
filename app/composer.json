@@ -1,0 +1,36 @@
+{
+  "name": "giovannialo/supe",
+  "type": "project",
+  "license": "proprietary",
+  "homepage": "https://github.com/giovannialo/supe",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Giovanni A. L. Oliveira",
+      "email": "giovanni.al.oliveira@gmail.com",
+      "role": "Developer Full Stack",
+      "homepage": "https://github.com/giovannialo"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "src/"
+    },
+    "files": [
+      "src/Boot/Config.php",
+      "src/Boot/Functions.php"
+    ]
+  },
+  "require": {
+    "php": "^8.1",
+    "dompdf/dompdf": "^2.0",
+    "firebase/php-jwt": "^6.2",
+    "guzzlehttp/guzzle": "^7.4",
+    "landkit/php8-load-file-env": "^1.0",
+    "landkit/php8-model": "^1.0",
+    "landkit/php8-route": "^1.0",
+    "landkit/php8-functions": "^1.0",
+    "ext-fileinfo": "*",
+    "ext-pdo": "*"
+  }
+}
