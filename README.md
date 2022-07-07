@@ -14,8 +14,7 @@ Siga as etapas abaixo para um correto funcionamento do sistema.
 
 ### Rede mercury-network
 
-Para que a aplicação possa se comunicar com outros containers, como o de banco de dados, por exemplo, crie a rede **
-mercury-network**.
+Para que a aplicação possa se comunicar com outros containers, como o de banco de dados, por exemplo, crie a rede **mercury-network**.
 
 ```docker
 docker network create --driver bridge mercury-network
